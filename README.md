@@ -1,12 +1,64 @@
-# React + Vite
+# Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and customizable **password generator** built with **Vite + React**. Generates strong and secure passwords with options for length and character types. Works on any device via your browser — no installation required.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
+Try it here: [Password Generator App](https://password-generator-amber-iota-75.vercel.app)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚡ Features
+- Generate secure passwords instantly  
+- Choose password length  
+- Include letters, numbers, and symbols  
+- Works on desktop and mobile devices  
+
+---
+
+## 💻 Installation (Optional)
+If you want to run the project locally:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Adi716kumar/Password-Generator.git
+
+2. **Navigate to the project folder**
+cd Password-Generator
+
+3. **Install dependencies**
+npm install
+
+4. **Start the development server**
+npm run dev
+
+5. **Open your browser at**
+http://localhost:5173/
+
+📂 Project Structure
+password-generator/
+ ┣ node_modules/
+ ┣ public/
+ ┣ src/
+ ┣ package.json
+ ┣ vite.config.js
+ ┗ README.md
+
+🔧 Technologies Used
+
+React.js (with Hooks)
+
+Vite (Fast development & build)
+
+JavaScript / HTML / CSS
+
+📌 Notes
+
+The app is fully client-side; no backend required
+
+Make sure to use the live demo link to access the latest deployed version
+
+📎 License
+
+This project is open-source. Feel free to use and modify it for personal projects.
